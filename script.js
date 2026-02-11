@@ -56,7 +56,7 @@ function nextPhoto() {
 }
 
 function updatePhoto() {
-  document.getElementById("photo").src = "photos/photo" + (currentPhoto+1) + ".jpg";
+  document.getElementById("photo").src = "photo/photo" + (currentPhoto+1) + ".jpg";
   document.getElementById("caption").innerText = captions[currentPhoto];
 }
 
