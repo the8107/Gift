@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, #ffc0cb, #ffe4e1);
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.page {
+  display: none;
+  padding: 100px 20px;
+}
+
+.active {
+  display: block;
+}
+
+h1, h2 {
+  font-family: 'Dancing Script', cursive;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  margin: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  background: rgba(255,255,255,0.8);
+  padding: 40px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.gallery img {
+  width: 300px;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.letter {
+  max-width: 600px;
+  margin: auto;
+  font-size: 18px;
+}
+
+.hearts::before {
+  content: "💗 💕 💖 💘 💞";
+  font-size: 40px;
+  position: fixed;
+  animation: float 10s infinite linear;
+}
+
+@keyframes float {
+  from { top: 100%; }
+  to { top: -10%; }
+}

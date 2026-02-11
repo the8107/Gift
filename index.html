@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For My Babyyy 💗</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="hearts"></div>
+
+<!-- PAGE 1 -->
+<section id="page1" class="page active">
+  <h1 id="typingText"></h1>
+  <button onclick="nextPage()">Continue 🌸</button>
+</section>
+
+<!-- PAGE 2 -->
+<section id="page2" class="page">
+  <div class="card">
+    <h2>Will you be my Valentine? 💌</h2>
+    <div class="buttons">
+      <button id="yesBtn" onclick="sayYes()">YES 💕</button>
+      <button id="noBtn">NO 💔</button>
+    </div>
+  </div>
+</section>
+
+<!-- PAGE 3 -->
+<section id="page3" class="page">
+  <h2>You just made me the happiest person alive 💗</h2>
+  <button onclick="showGallery()">See Our Memories 🌷</button>
+</section>
+
+<!-- PAGE 4 -->
+<section id="page4" class="page gallery">
+  <img id="photo" src="photos/photo1.jpg">
+  <p id="caption"></p>
+  <button onclick="nextPhoto()">Next 🌸</button>
+  <button onclick="showReasons()">Continue ➡</button>
+</section>
+
+<!-- PAGE 5 -->
+<section id="page5" class="page">
+  <h2>Reasons I Love You 💕</h2>
+  <div id="reasonsBox"></div>
+  <button onclick="showLetter()">Read My Letter 💌</button>
+</section>
+
+<!-- PAGE 6 -->
+<section id="page6" class="page">
+  <h2>To My Favorite Person 💗</h2>
+  <p class="letter">
+    You walked into my life and suddenly everything felt softer.  
+    Brighter. Warmer.  
+    Loving you feels like home.  
+    And if every Valentine after this is with you,  
+    I’ll still feel like the luckiest person alive.
+    <br><br>
+    — Yours forever.
+  </p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
